@@ -34,6 +34,6 @@ func PetBattle(cats, dogs int) {
 	case cats > dogs:
 		fmt.Printf("Котики победили со счетом %d:%d!", cats, dogs)
 	case dogs > cats:
-		fmt.Printf("Собачки победили со счетом %d:%d!", dogs, cats)
+		fmt.Printf("Собачки победили со счетом %d:%d", dogs, cats)
 	}
 }
